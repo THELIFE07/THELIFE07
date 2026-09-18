@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24&height=200&section=header&text=THELIFE07&fontSize=45&fontColor=ffffff&animation=fadeIn&desc=Building%20%26%20shipping%20real%20projects&descSize=16&descAlignY=64" alt="header"/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=650&height=90&lines=%3C%2F%3E+Building+cool+things+for+the+web...;Shipping+code+daily+%F0%9F%9A%80;Learning+in+public+%F0%9F%93%9A;Judge+me+by+my+commits+%F0%9F%92%9C" alt="typing animation"/>
+  <img src="https://raw.githubusercontent.com/THELIFE07/THELIFE07/output/typing.svg" alt="typing animation" width="650"/>
 </div>
 
 <div align="center">
@@ -55,26 +55,7 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <a href="https://github.com/THELIFE07">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=THELIFE07&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats"/>
-  </a>
-  <a href="https://github.com/THELIFE07">
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=THELIFE07&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
-  </a>
-</div>
-
-<div align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=THELIFE07&theme=tokyonight&hide_border=true" alt="Streak stats"/>
-</div>
-
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=THELIFE07&theme=tokyo-night&hide_border=true&bg_color=1A1B27&color=A78BFA&line=A78BFA&point=FFFFFF&area=true&area_color=7C3AED" alt="Activity graph"/>
-</div>
-
-## 🏆 Achievements
-
-<div align="center">
-  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=THELIFE07&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="Trophies"/>
+  <img width="100%" src="https://raw.githubusercontent.com/THELIFE07/THELIFE07/output/metrics.svg" alt="GitHub stats — self-hosted, updates daily"/>
 </div>
 
 ## 🐍 Contribution Snake
