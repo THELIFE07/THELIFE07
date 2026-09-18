@@ -46,11 +46,14 @@ jobs:
       - name: Bundle all self-hosted animations
         run: cp .github/assets/*.svg dist/
 
-      - name: Pull metrics.svg into bundle (metrics commits it to output/dist)
+      - name: Pull metrics.svg into bundle (via API — raw CDN serves stale copies)
         run: |
-          curl -fsSL "https://raw.githubusercontent.com/${{ github.repository }}/output/dist/metrics.svg" -o dist/metrics.svg \
-            && echo "metrics.svg fetched ($(wc -c < dist/metrics.svg) bytes)" \
-            || echo "WARN: metrics.svg not fetched — will retry next run"
+          curl -fsSL -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.raw" \
+            "https://api.github.com/repos/${{ github.repository }}/contents/dist/metrics.svg?ref=output" \
+            -o dist/metrics.svg \
+            && echo "metrics.svg fetched fresh via API ($(wc -c < dist/metrics.svg) bytes)" \
+            || echo "WARN: metrics.svg not fetched — retry next run"
 
       - name: Push everything to output branch
         uses: crazy-max/ghaction-github-pages@v4
