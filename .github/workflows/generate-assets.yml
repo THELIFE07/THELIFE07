@@ -29,15 +29,13 @@ jobs:
           user: THELIFE07
           filename: dist/metrics.svg
           committer_branch: output
-          config_timezone: Asia/Kathmandu
+          config_timezone: UTC # anonymous — never leak real timezone
           config_display: large
           base: header, activity, community, repositories, metadata
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
 
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
@@ -47,8 +45,8 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Copy typing animation into bundle
-        run: cp .github/assets/typing.svg dist/typing.svg
+      - name: Bundle all self-hosted animations
+        run: cp .github/assets/*.svg dist/
 
       - name: Pull metrics.svg into bundle (metrics commits it to output/dist)
         run: |
