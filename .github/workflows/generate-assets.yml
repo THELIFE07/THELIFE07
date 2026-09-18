@@ -45,6 +45,12 @@ jobs:
       - name: Copy typing animation into bundle
         run: cp .github/assets/typing.svg dist/typing.svg
 
+      - name: Pull metrics.svg into bundle (metrics commits it to output/dist)
+        run: |
+          curl -fsSL "https://raw.githubusercontent.com/${{ github.repository }}/output/dist/metrics.svg" -o dist/metrics.svg \
+            && echo "metrics.svg fetched ($(wc -c < dist/metrics.svg) bytes)" \
+            || echo "WARN: metrics.svg not fetched — will retry next run"
+
       - name: Push everything to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
