@@ -7,6 +7,11 @@ on:
   push:
     branches: [main]
 
+# Prevent zombie runs from racing & force-pushing stale bundles over fresh ones
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
 jobs:
   assets:
     runs-on: ubuntu-latest
