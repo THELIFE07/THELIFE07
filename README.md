@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24&height=200&section=header&text=THELIFE07&fontSize=45&fontColor=ffffff&animation=twinkling&desc=Full-stack%20developer%20%C2%B7%20learning%20in%20public&descSize=16&descAlignY=64" alt="header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24&height=200&section=header&text=THELIFE07&fontSize=45&fontColor=ffffff&animation=twinkling" alt="header"/>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/THELIFE07/THELIFE07/output/typing.svg" alt="typing animation" width="650"/>
@@ -10,21 +10,9 @@
   <img src="https://img.shields.io/github/stars/THELIFE07?label=STARS&color=7C3AED&style=for-the-badge&logo=github" alt="stars"/>
 </div>
 
-## ⚡ About Me
-
-- 🔭 Building **real products** — from idea to production, end to end
-- 🧠 Deep focus on **clean architecture** and systems that scale
-- 🌱 Learning in public — **every commit is a lesson**
-- 🕶️ Anonymous by design — **the work speaks, not the face**
-- ⚡ The green squares are the CV
-
-<div align="center">
-  <i>✦ "The best way to predict the future is to build it" ✦</i>
-</div>
-
 <img width="100%" src="https://raw.githubusercontent.com/THELIFE07/THELIFE07/output/divider.svg" alt=""/>
 
-## 🛠️ Tech Arsenal
+## ✦ Tech Arsenal
 
 <div align="center">
 
@@ -60,7 +48,7 @@
 
 <img width="100%" src="https://raw.githubusercontent.com/THELIFE07/THELIFE07/output/divider.svg" alt=""/>
 
-## 📊 GitHub Stats
+## ✦ GitHub Stats
 
 <div align="center">
   <img width="100%" src="https://raw.githubusercontent.com/THELIFE07/THELIFE07/output/metrics.svg" alt="GitHub stats — self-hosted, updates daily"/>
@@ -68,7 +56,7 @@
 
 <img width="100%" src="https://raw.githubusercontent.com/THELIFE07/THELIFE07/output/divider.svg" alt=""/>
 
-## 🐍 Contribution Snake
+## ✦ Contribution Snake
 
 <div align="center">
   <picture>
@@ -79,7 +67,7 @@
 </div>
 
 <!-- ═══════════════════════════════════════════════
-     UNCOMMENT TO ENABLE CONTACT LINKS (stay anonymous — use handles, not personal info)
+     UNCOMMENT TO ENABLE CONTACT LINKS (use handles, not personal info)
 
 <div align="center">
   <a href="https://x.com/your_handle"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
