@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="120" viewBox="0 0 1300 120">
+  <defs>
+    <pattern id="pstripe" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#0a0a0a"/>
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#D4AF37" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="100%" r="85%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.14"/>
+      <stop offset="55%" stop-color="#FFD700" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8a6d1d"/>
+      <stop offset="42%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FFF6C9"/>
+      <stop offset="58%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#8a6d1d"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1.1 0; 1.1 0; -1.1 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="topline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6b5a2a"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#6b5a2a"/>
+      <animate attributeName="x1" values="-100%;100%;-100%" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;200%;0%" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1300" height="120" fill="#0a0a0a"/>
+  <rect width="1300" height="120" fill="url(#pstripe)"/>
+  <rect width="1300" height="120" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1300" height="2.5" fill="url(#topline)"/>
+  <rect x="0" y="5" width="1300" height="0.75" fill="#D4AF37" opacity="0.35"/>
+
+  <text x="650" y="72" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" letter-spacing="9" fill="url(#shine)">◆ T H E L I F E 0 7 ◆</text>
+</svg>
