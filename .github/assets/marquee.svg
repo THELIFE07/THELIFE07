@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="40" viewBox="0 0 800 40">
   <g font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="600" fill="#A78BFA" letter-spacing="2">
-    <text x="0" y="26">• BUILDING IN PUBLIC • CLEAN CODE • REAL PROJECTS • OPEN TO COLLABS •
+    <text x="0" y="26">• CODE • CREATE • SHIP • REPEAT • CODE • CREATE • SHIP • REPEAT •
       <animateTransform attributeName="transform" type="translate" values="0 0; -900 0" dur="14s" repeatCount="indefinite"/>
     </text>
-    <text x="900" y="26">• BUILDING IN PUBLIC • CLEAN CODE • REAL PROJECTS • OPEN TO COLLABS •
+    <text x="900" y="26">• CODE • CREATE • SHIP • REPEAT • CODE • CREATE • SHIP • REPEAT •
       <animateTransform attributeName="transform" type="translate" values="0 0; -900 0" dur="14s" repeatCount="indefinite"/>
     </text>
   </g>
