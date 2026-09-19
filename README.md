@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24&height=200&section=header&text=THELIFE07&fontSize=45&fontColor=ffffff&animation=twinkling&desc=Building%20%26%20shipping%20real%20projects&descSize=16&descAlignY=64" alt="header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24&height=200&section=header&text=THELIFE07&fontSize=45&fontColor=ffffff&animation=twinkling&desc=Full-stack%20developer%20%C2%B7%20learning%20in%20public&descSize=16&descAlignY=64" alt="header"/>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/THELIFE07/THELIFE07/output/typing.svg" alt="typing animation" width="650"/>
@@ -12,11 +12,15 @@
 
 ## ⚡ About Me
 
-- 🔭 I'm building **real projects** — apps, APIs & tools that solve actual problems
-- 🌱 Currently leveling up — **systems design, clean architecture & open source**
-- 💬 Ask me about **anything web dev** — happy to talk code all day
-- 🕶️ Anonymous by design — **judge me by my commits, not my face**
-- ⚡ Fun fact — **the green squares are my CV**
+- 🔭 Building **real products** — from idea to production, end to end
+- 🧠 Deep focus on **clean architecture** and systems that scale
+- 🌱 Learning in public — **every commit is a lesson**
+- 🕶️ Anonymous by design — **the work speaks, not the face**
+- ⚡ The green squares are the CV
+
+<div align="center">
+  <i>✦ "The best way to predict the future is to build it" ✦</i>
+</div>
 
 <img width="100%" src="https://raw.githubusercontent.com/THELIFE07/THELIFE07/output/divider.svg" alt=""/>
 
