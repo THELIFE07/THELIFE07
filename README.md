@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0d0d0d&height=210&section=header&text=THELIFE07&fontSize=46&fontColor=FFD700&stroke=FFD700&strokeWidth=1&animation=twinkling" alt="header"/>
+<img width="100%" src="https://raw.githubusercontent.com/THELIFE07/THELIFE07/output/hero.svg" alt="THELIFE07 — black and gold"/>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/THELIFE07/THELIFE07/output/terminal.svg" alt="terminal" width="650"/>
@@ -77,4 +77,4 @@
   <img width="100%" src="https://raw.githubusercontent.com/THELIFE07/THELIFE07/output/marquee.svg" alt=""/>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0d0d0d&height=140&section=footer&stroke=FFD700&strokeWidth=1&animation=twinkling" alt="footer"/>
+<img width="100%" src="https://raw.githubusercontent.com/THELIFE07/THELIFE07/output/footer.svg" alt=""/>
