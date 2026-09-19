@@ -1,12 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="6" viewBox="0 0 800 6">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="18" viewBox="0 0 800 18">
   <defs>
-    <linearGradient id="slide" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="gline" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#6b5a2a"/>
       <stop offset="50%" stop-color="#FFD700"/>
       <stop offset="100%" stop-color="#6b5a2a"/>
       <animate attributeName="x1" values="-100%;100%;-100%" dur="6s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="0%;200%;0%" dur="6s" repeatCount="indefinite"/>
     </linearGradient>
+    <radialGradient id="dglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect width="800" height="6" rx="3" fill="url(#slide)"/>
+  <circle cx="400" cy="9" r="17" fill="url(#dglow)"/>
+  <rect x="30" y="7.5" width="330" height="3" rx="1.5" fill="url(#gline)"/>
+  <rect x="440" y="7.5" width="330" height="3" rx="1.5" fill="url(#gline)"/>
+  <rect x="395" y="4" width="10" height="10" fill="#FFD700" transform="rotate(45 400 9)">
+    <animate attributeName="opacity" values="1;0.55;1" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="378" y="7.5" width="3" height="3" fill="#D4AF37" transform="rotate(45 379.5 9)"/>
+  <rect x="418.5" y="7.5" width="3" height="3" fill="#D4AF37" transform="rotate(45 420 9)"/>
 </svg>
