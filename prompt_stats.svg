@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="44" viewBox="0 0 650 44">
+  <defs>
+    <pattern id="ppstripe" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#0a0a0a"/>
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#D4AF37" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <clipPath id="pwin"><rect x="0.5" y="0.5" width="649" height="43" rx="10"/></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="649" height="43" rx="10" fill="#0d0d0d" stroke="#D4AF37" stroke-opacity="0.5"/>
+  <g clip-path="url(#pwin)">
+    <rect width="650" height="44" fill="url(#ppstripe)"/>
+  </g>
+  <text x="24" y="28" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#FFD700" font-weight="700">$ <tspan fill="#F5C842">tail -f stats.log</tspan></text>
+  <rect x="214" y="15" width="9" height="17" fill="#FFD700">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
