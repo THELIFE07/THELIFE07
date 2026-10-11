@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="190" viewBox="0 0 650 190">
+  <defs>
+    <pattern id="tpstripe" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#0a0a0a"/>
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#D4AF37" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="tglow" cx="50%" cy="100%" r="90%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.10"/>
+      <stop offset="60%" stop-color="#FFD700" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFD700" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="win"><rect x="0.5" y="0.5" width="649" height="189" rx="14"/></clipPath>
+    <clipPath id="t1"><rect x="50" y="56" width="0" height="24">
+      <animate attributeName="width" values="0;0;60;60;0;0" keyTimes="0;0.05;0.13;0.96;0.99;1" dur="12s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="t2"><rect x="50" y="112" width="0" height="24">
+      <animate attributeName="width" values="0;0;115;115;0;0" keyTimes="0;0.24;0.34;0.96;0.99;1" dur="12s" repeatCount="indefinite"/>
+    </rect></clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="649" height="189" rx="14" fill="#0d0d0d" stroke="#D4AF37" stroke-opacity="0.55"/>
+  <g clip-path="url(#win)">
+    <rect x="0" y="0" width="650" height="190" fill="url(#tpstripe)"/>
+    <rect x="0" y="0" width="650" height="190" fill="url(#tglow)"/>
+    <rect x="-140" y="0" width="130" height="190" fill="url(#sweep)" transform="skewX(-18)">
+      <animate attributeName="x" values="-150;680" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <circle cx="26" cy="24" r="6" fill="#FFD700"/>
+  <circle cx="46" cy="24" r="6" fill="#D4AF37"/>
+  <circle cx="66" cy="24" r="6" fill="#6b5a2a"/>
+  <text x="325" y="28" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#8a6d1d">THELIFE07 — bash — 80×24</text>
+  <line x1="0" y1="40" x2="650" y2="40" stroke="#D4AF37" stroke-opacity="0.2"/>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="15">
+    <text x="24" y="72" fill="#FFD700" font-weight="700">$</text>
+    <text x="50" y="72" fill="#F5C842" clip-path="url(#t1)">whoami</text>
+    <text x="50" y="98" fill="#FFD700" font-weight="700" font-size="17" opacity="0">THELIFE07
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.14;0.18;0.96;0.99;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="24" y="128" fill="#FFD700" font-weight="700">$</text>
+    <text x="50" y="128" fill="#F5C842" clip-path="url(#t2)">ls ~/arsenal</text>
+    <text x="50" y="154" fill="#D4AF37" opacity="0">code   design   ship   repeat
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.35;0.39;0.96;0.99;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <rect x="172" y="114" width="10" height="18" fill="#FFD700">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
