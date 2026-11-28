@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="280" viewBox="0 0 1300 280">
+  <defs>
+    <pattern id="pstripe" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#0a0a0a"/>
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#D4AF37" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="0%" r="85%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.16"/>
+      <stop offset="55%" stop-color="#FFD700" stop-opacity="0.045"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8a6d1d"/>
+      <stop offset="42%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FFF6C9"/>
+      <stop offset="58%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#8a6d1d"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1.1 0; 1.1 0; -1.1 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1300" height="280" fill="#0a0a0a"/>
+  <rect width="1300" height="280" fill="url(#pstripe)"/>
+  <rect width="1300" height="280" fill="url(#glow)"/>
+
+  <rect x="8" y="8" width="1284" height="264" rx="10" fill="none" stroke="#D4AF37" stroke-opacity="0.65" stroke-width="1.5"/>
+  <rect x="18" y="18" width="1264" height="244" rx="6" fill="none" stroke="#D4AF37" stroke-opacity="0.3" stroke-width="0.75"/>
+
+  <path d="M 14 40 L 14 14 L 40 14" stroke="#FFD700" stroke-width="2.5" fill="none"/>
+  <path d="M 1260 14 L 1286 14 L 1286 40" stroke="#FFD700" stroke-width="2.5" fill="none"/>
+  <path d="M 14 240 L 14 266 L 40 266" stroke="#FFD700" stroke-width="2.5" fill="none"/>
+  <path d="M 1260 266 L 1286 266 L 1286 240" stroke="#FFD700" stroke-width="2.5" fill="none"/>
+
+  <text x="650" y="88" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#D4AF37" letter-spacing="4">◆ ─────── ✦ ─────── ◆</text>
+  <text x="650" y="172" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" letter-spacing="12" fill="url(#shine)">THELIFE07</text>
+  <text x="650" y="228" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#c9a227" letter-spacing="8">CODE · CREATE · SHIP</text>
+
+  <g fill="#FFD700">
+    <path d="M 190 120 L 195 128 L 190 136 L 185 128 Z">
+      <animate attributeName="opacity" values="0;1;0" dur="3.2s" begin="0s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 1110 95 L 1114 101 L 1110 107 L 1106 101 Z">
+      <animate attributeName="opacity" values="0;1;0" dur="2.7s" begin="0.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 250 235 L 253 240 L 250 245 L 247 240 Z">
+      <animate attributeName="opacity" values="0;0.9;0" dur="3.8s" begin="1.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 1055 220 L 1059 226 L 1055 232 L 1051 226 Z">
+      <animate attributeName="opacity" values="0;1;0" dur="2.9s" begin="2.1s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 950 130 L 953 135 L 950 140 L 947 135 Z">
+      <animate attributeName="opacity" values="0;0.8;0" dur="4.1s" begin="0.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
